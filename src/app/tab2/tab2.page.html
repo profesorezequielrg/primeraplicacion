@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+      <h2>  segundo tabulador  </h2>
+    
+    
+    </ion-title>  
+  </ion-toolbar>
+
+  <ul>
+  <h2>  ANIMALES  </h2>
+  <li *ngFor="let animal of animales" >
+      El {{ animal.nombre }} de raza {{ animal.raza }} come {{ animal.comida }}
+      <img src="{{ animal.img }}"> 
+  </li>
+</ul>
+
+</ion-header>
+
+<ion-content></ion-content>
